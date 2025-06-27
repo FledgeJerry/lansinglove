@@ -15,9 +15,17 @@ The site is currently a simple static site built with HTML, CSS and a small amou
 - Non‑fungible tokens (NFTs) and collaboration tokens may be used to reward participation.
 - Polygon's low transaction costs make it a good choice for these features.
 
+## Project Structure
+The project is a plain static website. Key files include:
+
+- `index.html` – the main HTML page.
+- `style.css` – site-wide styles.
+- `scripts/` – JavaScript files used by the site (currently `main.js`).
+- `run.sh` – helper script to start a simple local web server.
+
 ## Setup Instructions
 1. Clone this repository.
-2. Serve the site locally with a static server. Examples:
+2. From the project root run `./run.sh` **or** start your own static server. Examples:
    - **Python**: `python3 -m http.server`
    - **Node**: `npx serve .`
 3. Open `http://localhost:8000` (or the port shown in your terminal) in a browser.
